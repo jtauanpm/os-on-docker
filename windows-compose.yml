@@ -13,6 +13,7 @@ services:
       - 3389:3389/udp
     stop_grace_period: 2m
     restart: no
+    # restart: on-failure
     environment:
       VERSION: "win11"
       RAM_SIZE: "10GB"
